@@ -1,6 +1,6 @@
 {
   "name": "@beautywe/plugin-status",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Status for beautywe",
   "main": "dist/status.plugin.js",
   "scripts": {
