@@ -1,21 +1,25 @@
 {
   "name": "@beautywe/plugin-status",
   "version": "0.0.1",
-  "description": "Status for beautywe",
+  "description": "Status plugin for beautywe",
   "main": "dist/status.plugin.js",
   "scripts": {
-    "test": "node_modules/.bin/nyc ava test/**/*.test.js",
-    "test-report": "node_modules/.bin/nyc report --reporter=html",
-    "build-pro": "rm -rf ./dist && node_modules/.bin/babel src -d dist",
-    "build-watch": "node_modules/.bin/babel src --watch -d dist",
-    "code-check": "node_modules/.bin/eslint src/**",
-    "code-fix": "node_modules/.bin/eslint --fix src/**",
+    "test": "nyc ava test/**/*.test.js",
+    "test:report": "nyc report --reporter=html",
+    "test:coverage": "nyc --reporter=html ava",
+    "build:pro": "rm -rf ./dist && node_modules/.bin/babel src -d dist",
+    "build:watch": "babel src --watch -d dist",
+    "code-check": "eslint src/**",
+    "code-fix": "eslint --fix src/**",
     "lint": "git diff --cached --name-only | grep -E '\\.(js|jsx)$' | xargs eslint",
     "commitmsg": "validate-commit-msg",
     "commit": "git cz"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "beautywe",
+    "beautywe-plugin"
+  ],
+  "author": "JerryC8080 (huangjerryc@gmail.com)",
   "devDependencies": {
     "@beautywe/plugin-event": "^0.0.1",
     "@babel/register": "^7.4.0",

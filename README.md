@@ -1,21 +1,13 @@
 # 介绍
+
+[![CircleCI](https://circleci.com/gh/beautywe/beautywe-plugin-status/tree/master.svg?style=svg)](https://circleci.com/gh/beautywe/beautywe-plugin-status/tree/master)
+
+[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-status.svg)[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-status/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-status)
+
+# Feature
 1. 基于事件驱动的状态机
 2. 依赖于 `beautywe-plugin-event`
 3. 支持 BtPage，BtApp
-
-## Version
-[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-status.svg)
-
-## Unit test coverage
-```
-------------------|----------|----------|----------|----------|-------------------|
-File              |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
-------------------|----------|----------|----------|----------|-------------------|
-All files         |    97.67 |    72.73 |       96 |    97.44 |                   |
- status.js        |      100 |      100 |      100 |      100 |                   |
- status.plugin.js |    92.86 |    66.67 |     87.5 |    90.91 |                19 |
-------------------|----------|----------|----------|----------|-------------------|
-```
 
 # 安装
 
