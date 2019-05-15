@@ -1,6 +1,6 @@
 {
   "name": "@beautywe/plugin-status",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Status plugin for beautywe",
   "main": "dist/status.plugin.js",
   "scripts": {
@@ -21,7 +21,7 @@
   ],
   "author": "JerryC8080 (huangjerryc@gmail.com)",
   "devDependencies": {
-    "@beautywe/plugin-event": "^0.0.1",
+    "@beautywe/plugin-event": "^1.0.0",
     "@babel/register": "^7.4.0",
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
@@ -41,7 +41,7 @@
     "validate-commit-msg": "^2.14.0"
   },
   "dependencies": {
-    "@beautywe/core": "^0.0.2"
+    "@beautywe/core": "^1.0.0"
   },
   "config": {
     "commitizen": {
@@ -56,5 +56,17 @@
   "nyc": {
     "sourceMap": false,
     "instrument": false
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beautywe/plugin-status.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beautywe/plugin-status/issues"
+  },
+  "homepage": "https://github.com/beautywe/plugin-status#readme"
 }

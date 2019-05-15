@@ -1,8 +1,10 @@
 # 介绍
 
-[![CircleCI](https://circleci.com/gh/beautywe/beautywe-plugin-status/tree/master.svg?style=svg)](https://circleci.com/gh/beautywe/beautywe-plugin-status/tree/master)
-
-[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-status.svg)[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-status/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-status)
+[![CircleCI](https://img.shields.io/circleci/project/github/beautywe/plugin-status/master.svg)](https://circleci.com/gh/beautywe/plugin-status)
+[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) 
+[![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-status.svg)](https://www.npmjs.com/package/@beautywe/plugin-status) 
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-status.svg) 
+[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-status/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-status)
 
 # Feature
 1. 基于事件驱动的状态机
